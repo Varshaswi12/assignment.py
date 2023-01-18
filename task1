@@ -1,0 +1,8 @@
+import math as M
+radius=float(input("enter the radius:"))
+area_of_circle=M.pi*radius*radius
+print("area is:",area_of_circle)
+
+filename=input("input filename:")
+f_extns=filename.split(".")
+print("the extension of the file is:"+(f_extns[-1])
